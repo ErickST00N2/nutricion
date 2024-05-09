@@ -46,21 +46,24 @@ function FormRegister() {
             <Row className='mb-3'>
                 <Form.Group as={Col} controlId="formGridImage">
                     <Form.Label>Foto de Perfil</Form.Label>
-                    <DropZoneImg/>
+                    <DropZoneImg />
                 </Form.Group>
             </Row>
-            <Row className='mb-3'>
-                <p>Al registrarte aceptas la <Link>Política de privacidad</Link> y los <Link>Términos</Link> de Healthybite</p>
-                </Row>
 
-            {/* Botón de envío */}
-            <Row className='justify-content-md-center mb-3'>
-                <Button variant="primary" type="submit" className="btn-greenlife">
+
+            {/* Campo de aceptación de la política de privacidad y los términos de uso */}
+            <Row className='mb-3'>
+                <p>Al registrarte aceptas la <Link to={nameRoutes.PolicyPage}>Política de privacidad</Link> y los <Link to={nameRoutes.TermsPage}>Términos</Link> de uso.</p>
+            </Row>
+
+
+            <Row className='mb-3 btn-register'>
+                {/* Botón de envío */}
+                <Button type="submit" className="btn-greenlife">
                     Registrarme
                 </Button>
-            </Row>
-            <Row className='justify-content-md-center mb-3'>
-                <p>¿Ya tienes una cuenta?, <Link to={nameRoutes.LoginPage}>Inicía sesión</Link></p></Row>
+            {/* Link para iniciar sesión */}
+                <center><p>¿Ya tienes una cuenta?, <Link to={nameRoutes.LoginPage}>Inicía sesión</Link></p></center></Row>
 
         </Form>
     );

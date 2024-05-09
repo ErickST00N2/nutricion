@@ -32,6 +32,8 @@ let nameRoutes = {
     "VerCitasPage": '/Ver-Cita1',
     "LoginPage": '/Login',
     "UserRegisterPage": '/SignUp',
+    "PolicyPage": '/Policy',
+    "TermsPage": '/Terms',
     "Error404Page": '*'
 }
 
@@ -56,13 +58,13 @@ let nameRoutes = {
 // ```
 
 const Rutas= ()=><Routes>
-        <Route path={nameRoutes.WelcomePage} element={<WelcomePage />} />
-        <Route path={nameRoutes.RegistrarCitaPage} element={<RegistrarCitaPage />} />
+        <Route exact path={nameRoutes.WelcomePage} element={<WelcomePage />} />
+        <Route exact path={nameRoutes.RegistrarCitaPage} element={<RegistrarCitaPage />} />
         <Route path={nameRoutes.VerCitasPage} element={<VerCitasPage />} />
-        <Route path={nameRoutes.LoginPage} element={<LoginPage />} />
-        <Route path={nameRoutes.UserRegisterPage} element={<UserRegisterPage />} />
+        <Route exact path={nameRoutes.LoginPage} element={<LoginPage />} />
+        <Route exact path={nameRoutes.UserRegisterPage} element={<UserRegisterPage />} />
         <Route path={nameRoutes.Error404Page} element={<Error404Page />} />
-
+        
     </Routes>
 
 export default Rutas

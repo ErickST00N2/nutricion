@@ -7,8 +7,8 @@ import ResponsiveDesign from '../../util/responsive-design';
 export default function UserRegisterPage() {
     
     return (
-        <Container fluid style={{ width: '100%' }}>
-            <Row className='justify-content-md-center'>
+        <Container fluid className='container-registers'>
+            <Row className='justify-content-md-center Row-register'>
                 <Col lg={6}>
                     <Container className='user-register' style={{ padding: '30px', width: ResponsiveDesign.isMobileAndTablet() ? '100%' : '80%' }}>
                         <header>Registrarse</header>

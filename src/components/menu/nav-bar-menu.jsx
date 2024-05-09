@@ -17,7 +17,7 @@ function NavBarMenu(props) {
           <img
             src={LogoMenu}
             width="180"
-            height="90"
+            height="80"
             className="d-inline-block align-top"
             alt="Nutrición logo"
           />{" "}
