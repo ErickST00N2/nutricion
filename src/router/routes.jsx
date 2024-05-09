@@ -5,6 +5,8 @@ import RegistrarCitaPage from "../pages/registrar-cita";
 import UserRegisterPage from "../pages/user-register";
 import Error404Page from "../pages/error404";
 import VerCitasPage from "../pages/ver-citas";
+import PolicyPage from "../pages/policy";
+import TermsPage from "../pages/terms";
 
 
 
@@ -63,8 +65,10 @@ const Rutas= ()=><Routes>
         <Route path={nameRoutes.VerCitasPage} element={<VerCitasPage />} />
         <Route exact path={nameRoutes.LoginPage} element={<LoginPage />} />
         <Route exact path={nameRoutes.UserRegisterPage} element={<UserRegisterPage />} />
+        <Route exact path={nameRoutes.PolicyPage} element={<PolicyPage />} />
+        <Route exact path={nameRoutes.TermsPage} element={<TermsPage />} />
         <Route path={nameRoutes.Error404Page} element={<Error404Page />} />
-        
+
     </Routes>
 
 export default Rutas
