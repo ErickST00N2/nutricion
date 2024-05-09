@@ -1,4 +1,22 @@
-Link{
-    text-decoration: none;
+@import url("../../index.css");
+
+
+
+.my-link {
+    color: black; /* Cambiar color de texto */
+    text-decoration: none; /* Eliminar subrayado */
+    padding: 10px; /* Agregar relleno */
+    margin-right: 10px;
 }
 
+.link-btn {
+    color: black; /* Cambiar color de texto */
+    text-decoration: none; /* Eliminar subrayado */
+    padding: 10px 15px; /* Agregar relleno */
+    
+}
+
+.navbarmenu {
+    z-index: 1;
+background-color: var(--verdeDebil  )!important;    
+}

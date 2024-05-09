@@ -1,13 +1,13 @@
 import MenuAppBar from "../../components/menu"
 
-function Welcome () {
+function WelcomePage () {
     return (
         <div>
-            <MenuAppBar></MenuAppBar>
+            Esta es la pagina de inicio
 
         </div>
     )
 }
 
 
-export default Welcome
+export default WelcomePage

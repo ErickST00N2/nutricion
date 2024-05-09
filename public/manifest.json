@@ -1,25 +1,37 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Nutrición",
+  "name": "Club de nutrición",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "./LogoMenu64.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "./LogoMenu192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "./LogoMenu512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "./LogoMenu512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+
     }
+
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "theme_color": "#307347",
+  "background_color": "#C4F2C7",
+  "description": "Una aplicación para gestionar las citas de un club de nutrición.",
+  "lang": "es",
+  "categories": ["health", "nutrition", "fitness"]
 }

@@ -7,9 +7,7 @@ import Rutas from "./router/routes";
 function App() {
   return (
     <Router>
-      <div>
         <MenuAppBar />
-      </div>
       <Rutas />
     </Router>
   );

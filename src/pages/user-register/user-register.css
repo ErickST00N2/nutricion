@@ -1,0 +1,38 @@
+.user-register {
+    background-color: var(--verdeClaro);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large
+}
+
+.btn-greenlife {
+    background-color: var(--verdeFuerte);
+    border-color: rgba(0, 0, 0, 0);
+    color: white;
+
+
+}
+
+.img-register, .form-register {
+    padding: 0!important;
+    margin: 0!important;
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.img-register {
+    padding: 0!important;
+    margin: 0!important;
+    background: no-repeat right/100% url(../../assets/img/register/img-register.png);
+}
+
+

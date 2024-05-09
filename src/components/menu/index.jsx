@@ -1,11 +1,11 @@
-import LogoMenu from "../../util/logo-menu";
-import LoginButton from "./login-button.jsx";
-import { Navbar, Container } from "react-bootstrap";
 import ResponsiveDesign from "../../util/responsive-design";
 import DrawerMenu from "./drawer-menu.jsx";
 import NavBarMenu from "./nav-bar-menu.jsx";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+
+import "./index.css";
+
 
 function MenuAppBar(props) {
   // Crear la instancia de ResponsiveDesign
